@@ -1,4 +1,4 @@
-# combinatorial optimization with DL/RL: IPython tutorials
+# Combinatorial optimization with DRL: IPython tutorials
 This tutorial demonstrates technique to solve combinatorial optimization problems such as the well-known travelling salesman problem. The method was presented in the paper [Neural Combinatorial Optimization with Reinforcement Learning](https://arxiv.org/abs/1611.09940).
 
 The Algorithm applies the pointer network architecture wherein an attention mechanism is fashioned to point to elements of an input sequence, allowing a decoder to output said elements. The network is trained by reinforcement learning using an actor-critic method. 
@@ -21,4 +21,8 @@ Blog post by fast ml: [Introduction to pointer networks](http://fastml.com/intro
 
 Paper: [Neural Combinatorial Optimization with Reinforcement Learning](https://arxiv.org/abs/1611.09940)
 
+# What I modified
 
+* Fixed some bug.
+* Modified outdated un-runnable code.
+* Added more comments about tensor dimension.
